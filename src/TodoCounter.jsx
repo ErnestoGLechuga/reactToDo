@@ -1,4 +1,4 @@
-
+import './TodoCounter'
 
 function TodoCounter({ total, completed }){
     return(

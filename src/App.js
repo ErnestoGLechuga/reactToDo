@@ -22,7 +22,11 @@ function App() {
 
       <TodoList >
         {defaultTodos.map(todo => (
-          <TodoItem />
+          <TodoItem 
+          key={todo.text} 
+          text={todo.text}
+          completed={todo.completed}
+          />
         ))}
       </TodoList>
       
