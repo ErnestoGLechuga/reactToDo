@@ -15,7 +15,7 @@ const defaultTodos = [
 function App() {
   return (
     <>
-      <TodoCounter completed={16} total={25}/>
+      <TodoCounter completed={16} total={25} />
       <TodoSearch />
       <TodoList >
         {defaultTodos.map(todo => (
