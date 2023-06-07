@@ -12,7 +12,7 @@ function TodoSearch(){
             className='TodoSearch' 
             value={searchValue}
             onChange={(event) => {
-                console.log('Escribiste en el ToDoSerach');
+                setSearchValue(event.target.value);
             }}   
         />
     )
