@@ -5,6 +5,7 @@ function TodoSearch(){
 
     const [searchValue, setSearchValue] = React.useState('');
 
+    console.log(`Los usuarios buscan todos de ${searchValue}`)
 
     return(
         <input 
